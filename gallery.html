@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Club Team Gallery</title>
+    <link rel="stylesheet" href="gallery.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="Add a heading.png" alt="Club Logo" class="club-logo">
+            <h1>Kishor Bharti Sangha</h1>
+        </div>
+    </header>
+    
+    <section class="gallery">
+        <h2>Team Gallery</h2>
+        <div class="gallery-container">
+            <div class="gallery-item">
+                <img src="navratri-delhi-durga-puja-2023.webp" alt="Team 1" class="thumbnail">
+            </div>
+            <div class="gallery-item">
+                <img src="istockphoto-1044388000-612x612.jpg" alt="Team 2" class="thumbnail">
+            </div>
+            <div class="gallery-item">
+                <img src="istockphoto-1253289449-612x612.jpg" alt="Team 3" class="thumbnail">
+            </div>
+            <div class="gallery-item">
+                <img src="istockphoto-461790589-612x612.jpg" alt="Team 4" class="thumbnail">
+            </div>
+            <div class="gallery-item">
+                <img src="istockphoto-1410186654-612x612.jpg" alt="Team 5" class="thumbnail">
+            </div>
+            <div class="gallery-item">
+                <img src="istockphoto-450069831-612x612.jpg" alt="Team 6" class="thumbnail">
+            </div>
+            <div class="gallery-item">
+                <img src="istockphoto-528440120-612x612.jpg" alt="Team 7" class="thumbnail">
+            </div>
+            <div class="gallery-item">
+                <img src="istockphoto-484155878-612x612.jpg" alt="Team 8" class="thumbnail">
+            </div>
+        </div>
+    </section>
+
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <button id="modalBackButton" class="modal-back-button">Back</button>
+            <img id="modalImage" src="" alt="Expanded View">
+            <div class="zoom-controls">
+                <button id="zoomIn">Zoom In</button>
+                <button id="zoomOut">Zoom Out</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <button onclick="window.location.href='index.html'" class="footer-back-button">Back to Home</button>
+    </footer>
+
+    <script src="gallery.js"></script>
+</body>
+</html>
